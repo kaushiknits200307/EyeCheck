@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   
+   <ImageView 
+       android:id="@+id/image1"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:scaleType="fitXY"
+      
+      />
+   
+   <ImageView
+       android:id="@+id/image2"
+       android:layout_width="250px"
+       android:layout_height="250px"
+       android:layout_gravity="top|center"
+       android:gravity="center"
+       android:padding="10dp"
+       android:scaleType="fitXY" />
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="87dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:ems="10"
+       android:gravity="center"
+       android:inputType="number"
+       android:maxLength="2" />
+   
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="100dp"
+       android:onClick="submit"
+       android:text="Kaushik" />
+
+</FrameLayout>
